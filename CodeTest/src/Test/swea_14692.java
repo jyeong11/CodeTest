@@ -2,7 +2,7 @@ package Test;
 
 import java.util.Scanner;
 
-public class sw_14692 {
+public class swea_14692 {
 
 	public static void main(String[] args) {
 //		Alice와 Bob은 길이 N미터의 통나무를 자르는 게임을 한다. 게임은 Alice가 먼저 시작하며 그 이후 둘이 번갈아가면서 턴을 가진다. 

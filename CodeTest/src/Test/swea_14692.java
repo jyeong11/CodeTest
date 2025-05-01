@@ -23,10 +23,10 @@ public class swea_14692 {
 		for(int test_case = 1; test_case <= T; test_case++) {
 			int k = sc.nextInt();  // 통나무 길이
 			String winner = "Bob";
-            if(k % 2 == 0) {
-                winner = "Alice";
+			if(k % 2 == 0) {
+				winner = "Alice";
             }
-       	 	System.out.println("#" + test_case + " " + winner);
+			System.out.println("#" + test_case + " " + winner);
 		}
 	}
 

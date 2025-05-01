@@ -25,7 +25,7 @@ public class swea_14692 {
 			String winner = "Bob";
 			if(k % 2 == 0) {
 				winner = "Alice";
-            }
+			}
 			System.out.println("#" + test_case + " " + winner);
 		}
 	}

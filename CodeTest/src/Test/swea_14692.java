@@ -18,7 +18,7 @@ public class swea_14692 {
 		
 		Scanner sc = new Scanner(System.in);
 		int T;
-		T=sc.nextInt();  // 테스트 케이스 수 
+		T = sc.nextInt();  // 테스트 케이스 수 
 		
 		for(int test_case = 1; test_case <= T; test_case++) {
 			int k = sc.nextInt();  // 통나무 길이

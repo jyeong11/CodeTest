@@ -3,7 +3,7 @@ package Test;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class swea_1223 {
+public class swea_1222 {
 
 	public static void main(String[] args) {
 //		문자열로 이루어진 계산식이 주어질 때, 이 계산식을 후위 표기식으로 바꾸어 계산하는 프로그램을 작성하시오.

@@ -1,4 +1,4 @@
-package Test;
+package Swea_Test;
 
 import java.util.Scanner;
 import java.util.Stack;

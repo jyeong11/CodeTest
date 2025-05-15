@@ -1,4 +1,4 @@
-package Test;
+package CodeUp_Test;
 
 public class codeup_2368 {
 

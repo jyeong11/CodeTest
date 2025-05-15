@@ -1,3 +1,4 @@
+--
 select animal_id, name
   from animal_ins ai
  where exists (select 1

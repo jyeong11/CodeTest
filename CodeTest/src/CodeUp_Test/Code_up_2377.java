@@ -13,20 +13,16 @@ public class Code_up_2377 {
 		
 //		[생각]
 //		우유가 20240있어야 함 
-//		2024의 치즈를 만들기 위a 최소 몇마리인지 
+//		2024의 치즈를 만들기 위해 최소 몇마리인지 
 //		치즈의 나머지가 0이 될때까지 우유를 나누어야 함
 		int cheese = 20240;
 		int[] milk = {25, 15, 10};
 		int cow = 0;
-		int remainder = 0;
 		
 		for(int i = 0; i < milk.length; i++) {
-			remainder = cheese % milk[i];
-			if(remainder != 0) {
-				
-				remainder = remainder % milk[i + 1];
-			}
 			cow += cheese / milk[i];
+			cheese = cheese % milk[i];
+			
 		}
 		System.out.println(cow);
 	}
